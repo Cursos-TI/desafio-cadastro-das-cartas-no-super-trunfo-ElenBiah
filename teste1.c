@@ -7,6 +7,7 @@ int main () {
     int pontos;
     float populacao, area, PIB;
     char estado[50], nome[50], codigo [50];
+    
 
     printf ("Digite o codigo da carta\n");
     scanf ("%s", &codigo);
