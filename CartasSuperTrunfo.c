@@ -33,13 +33,10 @@ int main (){
     printf("Digite o pib da cidade\n");
     scanf("%f", &pib);
 
-    printf("codigo da carta: %s\n", codigo);
-    printf("nome do estado: %s\n", estado);
-    printf("nome da cidade: %s\n", cidade);
-    printf("população da cidade: %d\n", população);
-    printf("pontos turisticos: %d\n", pontos);
-    printf("area da cidade em km²: %f\n", area);
-    printf("pib da cidade: %f", pib);
+    printf("codigo da carta: %s, nome do estado: %S, nome da cidade: %s\n", codigo, estado, cidade);
+    printf("população da cidade: %d, pontos turisticos: %d\n", população, pontos);
+    printf("area da cidade: %f, pib: %f\n", area, pib);
+    
 
 
 return 0;
